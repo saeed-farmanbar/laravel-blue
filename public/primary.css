@@ -1,0 +1,159 @@
+.btn:focus {
+  box-shadow: 0 0 0 2px #FFFFFF; }
+
+.btn-primary, .manage-users-tab.selected,
+.btn-primary:visited,
+.btn-primary i,
+.manage-users-tab.selected i {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: white !important; }
+
+.btn-primary:active, .manage-users-tab.selected:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:hover,
+.manage-users-tab.selected:hover,
+.btn-primary:hover i,
+.manage-users-tab.selected:hover i {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: white !important; }
+
+.btn-primary:focus, .manage-users-tab.selected:focus {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: white !important;
+  box-shadow: 0 0 0 2px #FFFFFF !important; }
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: white !important; }
+
+a {
+  color: #000 !important; }
+
+.oauth-signin {
+  color: white !important; }
+  .oauth-signin:hover * {
+    color: white !important; }
+
+.btn-outline-primary {
+  border-color: #000 !important;
+  color: #000 !important; }
+  .btn-outline-primary:hover {
+    background: #000 !important;
+    color: white !important; }
+  .btn-outline-primary:focus {
+    box-shadow: 0 0 0 2px #FFFFFF !important; }
+
+.header .avatar {
+  background-color: #000 !important;
+  color: white !important; }
+
+.header a:hover:not(.btn) {
+  color: #000 !important; }
+
+.header .header-nav {
+  border-color: #000 !important; }
+
+.header .header-nav.active {
+  color: #000 !important; }
+
+.nav-tabs .nav-link.active {
+  border-color: #000 !important; }
+
+.nav-tabs .nav-link:not(.active) {
+  color: #9aa0ac !important; }
+  .nav-tabs .nav-link:not(.active):hover:not(.disabled) {
+    border-color: #000;
+    color: #000 !important; }
+
+.dropdown-item {
+  color: #6e7687 !important; }
+  .dropdown-item:hover {
+    color: #000 !important;
+    background-color: #FFFFFF !important; }
+    .dropdown-item.sort-disabled:hover {
+      background: #e6e6e6 !important;
+      color: #6e7687 !important;
+      opacity: 0.9; }
+  .dropdown-item:active, .dropdown-item.active {
+    color: #000 !important;
+    background-color: #FFFFFF !important; }
+
+input:focus, select:focus {
+  box-shadow: 0 0 5px #000 !important;
+  border-color: #000 !important; }
+
+.list-group-item.active {
+  background-color: #FFFFFF !important; }
+  .list-group-item.active, .list-group-item.active .list-group-item.active * {
+    color: #000 !important; }
+  .list-group-item.active.sort-disabled {
+    background: #e6e6e6 !important;
+    color: #6e7687 !important;
+    opacity: 0.9 !important; }
+
+.text-primary {
+  color: #000 !important; }
+
+.bg-primary {
+  background-color: #000 !important;
+  color: white !important; }
+
+.btn-danger {
+  color: white !important; }
+
+#clear-search:hover {
+  color: #000000 !important; }
+
+.pagination .page-item.active a {
+  color: white !important;
+  background-color: #000 !important; }
+
+.pagination .page-item a {
+  color: #000 !important;
+  border-color: #000 !important;
+  white-space: nowrap; }
+
+.pagination .page-item a:hover {
+  background-color: #FFFFFF !important; }
+
+.pagination .page-item a:focus {
+  box-shadow: 0 0 3px #000 !important; }
+
+.primary-regular {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: white !important; }
+
+.primary-lighten {
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  color: #000 !important; }
+
+.primary-darken {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: white !important; }
+
+.custom-switch-input:checked ~ .custom-switch-indicator {
+  background-color: #000 !important;
+  border-color: #000000 !important; }
+
+.custom-switch-input:focus ~ .custom-switch-indicator {
+  box-shadow: 0 0 0 2px #FFFFFF;
+  border-color: #000000 !important; }
+
+.custom-control-label::before {
+  border-color: #000000 !important; }
+
+.room-block.current {
+  box-shadow: 0 0 10px #FFFFFF; }
+
+.btn-secondary {
+  color: #000; }
+  .btn-secondary i {
+    color: #000; }
