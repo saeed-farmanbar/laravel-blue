@@ -85,10 +85,8 @@
                 </a>
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://bbb.mehranand1.ir/b/signin">Sign in</a>
+                        href="https://bbb.mehranand1.ir/b/signin">Panel</a>
 
-                    <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://bbb.mehranand1.ir/b/signup">Sign up</a>
                 </div>
             </div>
         </div>
@@ -106,14 +104,14 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
                         <h1 id="main-text" class="display-4 mb-4"> Welcome to BigBlueButton.</h1>
-                        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
+                        {{-- <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
                                 href="https://bigbluebutton.org/2018/07/09/greenlight-2-0/">Greenlight</a>
                             is a simple front-end for your BigBlueButton open-source web
                             conferencing server. You can create your own rooms to host sessions, or
                             join others using a short and convenient link.</p>
                         <a target="_blank" href="https://youtu.be/Hso8yLzkqj8">
                             <h4>Watch our tutorial on using Greenlight <i class="far fa-play-circle ml-1"></i></h4>
-                        </a>
+                        </a> --}}
                     </div>
 
                 </div>
@@ -124,27 +122,21 @@
 
         <div class="container mt-8 mb-6 text-center">
 
-            <h2 class="mb-6">Greenlight Features</h2>
+            <h2 class="mb-6">list of rooms</h2>
+
+
 
             <div class="row feature-stamp">
-                <div class="col-lg-3 col-md-6">
-                    <div class="feature-item">
-                        <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
-                        <h4 class="mt-4">Personalized Rooms</h4>
+
+                @foreach ($availableRooms as $room)
+                    <div class="col-lg-3 col-md-6">
+                        <a href="{{ url('/b'.'/'.$room->uid) }}"></a>
+                        <div class="feature-item">
+                            <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
+                            <h4 class="mt-4">{{$room->name}}</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="stamp bg-primary"><i class="fas fa-film fa-2x"></i></span>
-                    <h4 class="mt-4">Recording Management</h4>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="stamp bg-primary"><i class="fas fa-pencil-alt fa-2x"></i></span>
-                    <h4 class="mt-4">Custom Designs</h4>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="stamp bg-primary"><i class="fas fa-door-open fa-2x"></i></span>
-                    <h4 class="mt-4">User Authentication</h4>
-                </div>
+                @endforeach                
             </div>
         </div>
 
@@ -174,7 +166,7 @@
     </footer>
 
 
-    <div class="primary-lighten cookies-banner fixed-bottom text-center d-inline-block">
+    {{-- <div class="primary-lighten cookies-banner fixed-bottom text-center d-inline-block">
         <div class="cookies-banner-content py-3">
             <span class="cookies-warning-text pr-5">
                 Cookies help us deliver our services. By using our services, you agree to our use of cookies.
@@ -184,7 +176,7 @@
                 <button id="cookies-agree-button" class="btn customBtn primary-regular">I Agree</button>
             </span>
         </div>
-    </div>
+    </div> --}}
 
 
 
