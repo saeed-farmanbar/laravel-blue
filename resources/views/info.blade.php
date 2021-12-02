@@ -128,7 +128,7 @@
 
             <div class="row feature-stamp">
 
-                @foreach ($availableRooms as $room)
+                @foreach ($rooms as $room)
                     <div class="col-lg-3 col-md-6">
                         <a href="{{ url('/b'.'/'.$room->uid) }}"></a>
                         <div class="feature-item">
