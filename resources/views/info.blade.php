@@ -130,11 +130,11 @@
 
                 @foreach ($rooms as $room)
                     <div class="col-lg-3 col-md-6">
-                        <a href="{{ url('/b'.'/'.$room->uid) }}"></a>
+                        <a href="{{ url('/b'.'/'.$room->uid) }}">
                         <div class="feature-item">
                             <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
                             <h4 class="mt-4">{{$room->name}}</h4>
-                        </div>
+                        </div></a>
                     </div>
                 @endforeach                
             </div>
