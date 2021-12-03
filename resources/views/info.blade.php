@@ -105,7 +105,19 @@
             <div class="container pt-9 pb-8">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
-                        <h1 id="main-text" class="display-4 mb-4"> Welcome to BigBlueButton.</h1>
+                        <h1 id="main-text" class="display-4 mb-4"> Welcome to mohit.art</h1>
+                        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
+                        </p>
+                        
+                        <a id="" class="btn btn-outline-primary  "  href="{{ url('https://meet.mohit.art/b/signin') }}" >
+                            Sign In
+                          </a>
+                          <a id="" class="btn btn-outline-primary  " href="{{ url('https://meet.mohit.art/b/signup') }}">
+                            Sign Up
+                          </a>     
+                          <div><img src="mohit_files/mohit_logo_rz.png" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
+       
+                          
                         {{-- <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
                                 href="https://bigbluebutton.org/2018/07/09/greenlight-2-0/">Greenlight</a>
                             is a simple front-end for your BigBlueButton open-source web
@@ -124,7 +136,8 @@
 
         <div class="container mt-8 mb-6 text-center">
 
-            <h2 class="mb-6">list of rooms</h2>
+            <h2 class="mb-6">List of Current Meeting
+            </h2>
 
 
 
