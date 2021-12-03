@@ -7,7 +7,7 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en">
     <meta property="og:description" content="Greenlight is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link.">
-    <meta property="og:url" content="https://bbb.mehranand1.ir">
+    <meta property="og:url" content="https://meet.mohit.art">
     <meta property="og:image" content="https://raw.githubusercontent.com/saeed-farmanbar/greenlight/customize/app/assets/images/mohit_logo_rz.png">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="csrf-param" content="authenticity_token">
@@ -38,13 +38,15 @@
        url('{{ asset('fonts/Fonts/5119844/fb2ecc9a-88be-4293-9a40-e4f4a124cadd.woff')}}') format('woff');
       }
 </style>
+<link href='http://awebfont.ir/css?id=1062' rel='stylesheet' type='text/css'>
+
 
 
 
     <link rel="stylesheet" media="all" href="mohit_files/application-1e619b651171a0e600076024ca227a8c05ab0e821081bc17.css" data-turbolinks-track="reload">
     <script src="mohit_files/application-d098e8ba3a7631a6718c379214c8e470713d688e70e74fcd4.js" data-turbolinks-track="reload"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://bbb.mehranand1.ir/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://meet.mohit.art/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
 
     <!-- Primary color styling -->
     <link rel="stylesheet" media="screen" href="mohit_files/primary.css">
@@ -75,17 +77,17 @@
     </script>
   <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
 <body class="app-background" data-controller="main" data-action="index" data-relative-root="/b"
-    style="font-family: 'Futura Pro W05' ">
+    style="font-family: 'Futura Pro W05','B Mitra' ">
 
     <div class="header py-4">
         <div class="container">
             <div class="d-flex">
-                <a class="header-brand" href="https://bbb.mehranand1.ir/b/">
+                <a class="header-brand" href="https://meet.mohit.art/b/">
                     <img class="header-brand-img" alt="" src="mohit_files/mohit_logo_rz.png">
                 </a>
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://bbb.mehranand1.ir/b/signin">Panel</a>
+                        href="https://meet.mohit.art/b/signin">Panel</a>
 
                 </div>
             </div>
