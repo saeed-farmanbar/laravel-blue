@@ -160,21 +160,12 @@
 
 
     <footer class="footer pt-3">
-        <p class="text-center mb-1">
+        <p class="text-center mb-1" style="color:#000 ">
 
 
-            simone kattert
-            visuelle kommunikation
-
-            +49 (0)179 7712016
-            +49 (0)30 81892788
-            kattert.de
-
-            studio
-            ella-kay-straße 38
-            parkseite
-            d-10405 berlin
-
+Contact us: contact@mohit.art
+<br>
+<a href="mohit.art">mohit.art</a>
 
 
         </p>
