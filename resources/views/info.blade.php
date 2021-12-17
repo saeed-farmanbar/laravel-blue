@@ -165,7 +165,7 @@
 
 Contact us: contact@mohit.art
 <br>
-<a href="mohit.art">mohit.art</a>
+<a href="http://mohit.art">mohit.art</a>
 
 
         </p>
