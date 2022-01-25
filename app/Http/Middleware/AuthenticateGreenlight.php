@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-
+use Cookie;
 class AuthenticateGreenlight
 {
     /**
@@ -23,6 +23,7 @@ class AuthenticateGreenlight
         $address = "https://meet.mohit.art/b//user-info-api";
         
         //your cookie
+        logger(Cookie::get());
         logger(cookie('_greenlight-2_3_session'));
         $coockie = ['Cookie' => "_greenlight-2_3_session=".$request->cookie('_greenlight-2_3_session')];
         
