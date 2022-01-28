@@ -23,7 +23,7 @@ class AuthenticateGreenlight
         $address = "https://meet.mohit.art/b//user-info-api";
         
         //your cookie
-        if(isset($_COOKIE['2_3_session'])){
+        if(isset($_COOKIE['_greenlight-2_3_session'])){
 
             $coockie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
         
