@@ -42,7 +42,7 @@ class AuthenticateGreenlight
             });
 
             app()->bind('authenticated', function ($app) use ($userData){
-                return count($userData)>0?true:false;
+                return !empty($userData)?true:false;
             });
             // logger(app('authenticated'));
 
