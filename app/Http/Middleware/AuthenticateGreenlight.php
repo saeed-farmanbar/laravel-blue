@@ -23,13 +23,31 @@ class AuthenticateGreenlight
         $address = "https://meet.mohit.art/b//user-info-api";
         
         //your cookie
-        $coockie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
+        if(isset($_COOKIE['2_3_session'])){
+
+            $coockie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
         
-        //your request
-        $res = Http::withOptions([
-            'headers' => $coockie
-        ])->get($address);
-        logger($res);
+            //your request
+            $res = Http::withOptions([
+                'headers' => $coockie
+            ])->get($address);
+    
+            app()->bind('user', function ($app) use ($res){
+                return $res;
+            });
+            
+            app()->bind('authenticated', function ($app) use ($res){
+                return $res!==[]?true:false;
+            });
+            return $next($request);
+        }
+
+
+        
+        app()->bind('authenticated', function ($app) {
+            return false;
+        });
+
 
         return $next($request);
     }
