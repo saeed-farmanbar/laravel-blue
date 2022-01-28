@@ -25,8 +25,8 @@ class AuthenticateGreenlight
         //your cookie
         // if(isset($_COOKIE['_greenlight-2_3_session'])){
 
-            // $cookie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
-            $cookie = ['Cookie' => "_greenlight-2_3_session=RE7xX%2F2v4Fezf6TjdhHGjh40ytwbiMgf%2F%2FWAbTFE%2BAUzg0nWvyPvGuDOcDEFmqz%2BDOD1sVZk3v0wbgFP5NAyPPg2i9q3vqFWTrlxpbLEOXsuNA%2FcDoXtAWBJn28wrzWBy1lZMzT2hNt%2BAYA1V0uJYgYlrpEQ7ldHdS8%3D--rYSPX7cqiXmt1oE1--k2MK3zqp5EOzBM6QiO%2F5gw%3D%3D"];
+            $cookie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
+            // $cookie = ['Cookie' => "_greenlight-2_3_session=RE7xX%2F2v4Fezf6TjdhHGjh40ytwbiMgf%2F%2FWAbTFE%2BAUzg0nWvyPvGuDOcDEFmqz%2BDOD1sVZk3v0wbgFP5NAyPPg2i9q3vqFWTrlxpbLEOXsuNA%2FcDoXtAWBJn28wrzWBy1lZMzT2hNt%2BAYA1V0uJYgYlrpEQ7ldHdS8%3D--rYSPX7cqiXmt1oE1--k2MK3zqp5EOzBM6QiO%2F5gw%3D%3D"];
         
             
             //your request
