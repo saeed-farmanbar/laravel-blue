@@ -37,11 +37,11 @@ class AuthenticateGreenlight
            
 
 
-            app()->bind('user', function ($app) use ($res){
+            app()->bind('user', function ($app) use ($userData){
                 return $userData;
             });
 
-            app()->bind('authenticated', function ($app) use ($res){
+            app()->bind('authenticated', function ($app) use ($userData){
                 return count($userData)>0?true:false;
             });
             // logger(app('authenticated'));
