@@ -36,11 +36,12 @@ class AuthenticateGreenlight
                 return $res;
             });
             logger("res:".$res);
-            logger("condition:".$res!=null);
+            logger("condition:");
+            logger(empty($res));
             app()->bind('authenticated', function ($app) use ($res){
                 return $res!=null?true:false;
             });
-            logger(app("authenticated"));
+            // logger(app("authenticated"));
             return $next($request);
         }
 
