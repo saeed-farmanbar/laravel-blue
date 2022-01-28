@@ -88,7 +88,8 @@
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://meet.mohit.art/b/signin">Panel</a>
-
+                        <a class="btn btn-outline-primary mx-2 sign-in-button"
+                        href="https://mohit.art">mohit.art</a>
                 </div>
             </div>
         </div>
