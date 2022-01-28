@@ -33,7 +33,7 @@ class AuthenticateGreenlight
                 'headers' => $cookie
             ])->get($address);
             
-            $userData=(json_decode($res,true));
+            $userData=(json_decode($res->json(),true));
             dd($res->json());
 
 
