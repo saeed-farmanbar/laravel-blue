@@ -34,15 +34,15 @@ class AuthenticateGreenlight
             ])->get($address);
             
             $userData=(json_decode($res->json(),true));
-            dd($res->json());
+           
 
 
             app()->bind('user', function ($app) use ($res){
-                return $res;
+                return $userData;
             });
 
             app()->bind('authenticated', function ($app) use ($res){
-                return $res!=null?true:false;
+                return count($userData)>0?true:false;
             });
             // logger(app('authenticated'));
 
