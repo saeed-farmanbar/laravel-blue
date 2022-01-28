@@ -33,7 +33,6 @@ class AuthenticateGreenlight
                 'headers' => $cookie
             ])->get($address);
             
-logger($res);
 
 
             app()->bind('user', function ($app) use ($res){
@@ -43,6 +42,7 @@ logger($res);
             app()->bind('authenticated', function ($app) use ($res){
                 return $res!=null?true:false;
             });
+            logger(app('authenticated'));
 
             return $next($request);
         }
