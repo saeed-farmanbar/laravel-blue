@@ -34,7 +34,7 @@ class AuthenticateGreenlight
             ])->get($address);
             
             $userData=$res->json();
-            if($res->json()){
+            if($res->json()==null){
                 $userData=[] ;
             }
             logger($userData);
