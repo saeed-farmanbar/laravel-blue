@@ -37,7 +37,7 @@ class AuthenticateGreenlight
             });
             logger($res);
             app()->bind('authenticated', function ($app) use ($res){
-                return $res!==[]?true:false;
+                return $res!==null?true:false;
             });
             return $next($request);
         }

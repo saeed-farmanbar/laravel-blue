@@ -38,7 +38,7 @@
        url('{{ asset('fonts/Fonts/5119844/fb2ecc9a-88be-4293-9a40-e4f4a124cadd.woff')}}') format('woff');
       }
 </style>
-<link href='http://awebfont.ir/css?id=1062' rel='stylesheet' type='text/css'>
+<link href='https://awebfont.ir/css?id=1062' rel='stylesheet' type='text/css'>
 
 
 
