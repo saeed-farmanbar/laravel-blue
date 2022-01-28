@@ -110,15 +110,18 @@
                         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
                         </p>
                         
-                        <a id="" class="btn btn-outline-primary  "  href="{{ url('https://meet.mohit.art/b/signin') }}" >
-                            Sign In
-                          </a>
-                          <a id="" class="btn btn-outline-primary  " href="{{ url('https://meet.mohit.art/b/signup') }}">
-                            Sign Up
-                          </a>     
-                          <div><img src="mohit_files/mohit_logo_rz.png" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
-       
-                          
+                        @if (app("authenticated") )
+
+                            <a id="" class="btn btn-outline-primary  "  href="{{ url('https://meet.mohit.art/b/signin') }}" >
+                                Sign In
+                            </a>
+                            <a id="" class="btn btn-outline-primary  " href="{{ url('https://meet.mohit.art/b/signup') }}">
+                                Sign Up
+                            </a>
+
+                            <div><img src="mohit_files/mohit_logo_rz.png" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
+        
+                        @endif
                         {{-- <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
                                 href="https://bigbluebutton.org/2018/07/09/greenlight-2-0/">Greenlight</a>
                             is a simple front-end for your BigBlueButton open-source web
