@@ -34,7 +34,8 @@ class AuthenticateGreenlight
             ])->get($address);
             
             $userData=$res->json();
-           
+            logger($userData);
+            logger("count".count($userData));
 
 
             app()->bind('user', function ($app) use ($userData){
