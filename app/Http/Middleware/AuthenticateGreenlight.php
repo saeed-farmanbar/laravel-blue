@@ -32,12 +32,16 @@ class AuthenticateGreenlight
                 'headers' => $coockie
             ])->get($address);
     
-            app()->bind('user', function ($app) use ($res){
-                return $res;
-            });
             logger("res:".$res);
             logger("condition:");
             logger(empty($res));
+
+
+
+            app()->bind('user', function ($app) use ($res){
+                return $res;
+            });
+
             app()->bind('authenticated', function ($app) use ($res){
                 return $res!=null?true:false;
             });
