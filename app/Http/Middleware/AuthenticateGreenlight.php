@@ -38,12 +38,12 @@ class AuthenticateGreenlight
             app()->bind('user', function ($app) use ($res){
                 return $res;
             });
-            logger(empty($res));
+            logger(count(json_decode($res,true)));
 
             app()->bind('authenticated', function ($app) use ($res){
                 return $res!=null?true:false;
             });
-            logger(app('authenticated'));
+            // logger(app('authenticated'));
 
             return $next($request);
         }
