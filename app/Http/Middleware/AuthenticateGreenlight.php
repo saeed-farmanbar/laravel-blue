@@ -20,7 +20,7 @@ class AuthenticateGreenlight
     {
 
         // AuthenticateGreenlight
-        $address = "https://meet.mohit.art/b//user-info-api";
+        $address = "https://meet.mohit.art/b/user-info-api";
         
         //your cookie
         if(isset($_COOKIE['_greenlight-2_3_session'])){
