@@ -25,13 +25,15 @@ class AuthenticateGreenlight
         //your cookie
         if(isset($_COOKIE['_greenlight-2_3_session'])){
 
-            $coockie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
+            $cookie = ['Cookie' => "_greenlight-2_3_session=".$_COOKIE['_greenlight-2_3_session']];
         
             //your request
             $res = Http::withOptions([
-                'headers' => $coockie
+                'headers' => $cookie
             ])->get($address);
-    
+            
+            logger("res:".$res->json());
+            logger("res:".$res->body());
             logger("res:".$res);
             logger("condition:");
             logger(empty($res));
