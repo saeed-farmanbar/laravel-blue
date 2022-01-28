@@ -39,6 +39,7 @@ class AuthenticateGreenlight
             app()->bind('authenticated', function ($app) use ($res){
                 return $res!==null?true:false;
             });
+            logger(app("authenticated"));
             return $next($request);
         }
 
