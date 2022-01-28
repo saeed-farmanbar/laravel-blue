@@ -33,7 +33,7 @@ class AuthenticateGreenlight
                 'headers' => $cookie
             ])->get($address);
             
-
+logger($res);
 
 
             app()->bind('user', function ($app) use ($res){
