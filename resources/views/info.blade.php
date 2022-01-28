@@ -110,7 +110,7 @@
                         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
                         </p>
                         
-                        @if (app("authenticated") )
+                        @if (!app("authenticated") )
 
                             <a id="" class="btn btn-outline-primary  "  href="{{ url('https://meet.mohit.art/b/signin') }}" >
                                 Sign In
