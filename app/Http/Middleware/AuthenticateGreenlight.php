@@ -34,6 +34,9 @@ class AuthenticateGreenlight
             ])->get($address);
             
             $userData=$res->json();
+            if($res->json()){
+                $userData=[] ;
+            }
             logger($userData);
             logger("count".count($userData));
 
