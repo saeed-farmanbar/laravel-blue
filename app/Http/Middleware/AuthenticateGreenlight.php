@@ -32,6 +32,7 @@ class AuthenticateGreenlight
                 'headers' => $cookie
             ])->get($address);
             
+            logger($_COOKIE['_greenlight-2_3_session']);
             logger("res:".$res->json());
             logger("res:".$res->body());
             logger("res:".$res);
