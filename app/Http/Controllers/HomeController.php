@@ -44,9 +44,7 @@ class HomeController extends Controller
             return back();
         }
 
-        $user=\DB::table('users')->where("uid",app("user")["uid"])->first();
-        $user->language=$lang;
-        $user->save();
+        $user=\DB::table('users')->where("uid",app("user")["uid"])->update("language",$lang);
         return back();
 
 
