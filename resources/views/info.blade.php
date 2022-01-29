@@ -107,7 +107,7 @@
                     <div class="dropdown">
                       <a href="#" class="nav-link pr-0" data-toggle="dropdown" aria-expanded="false">
                         <span class="avatar">
-                            {{  Str::limit("dds", 1)  }} 
+                            {{  substr(app("user")["name"], 0, 1)  }} 
                         </span>
                         <span class="ml-2 d-none d-lg-block">
                           <span class="text-default username">{{app("user")["name"]}}</span>
