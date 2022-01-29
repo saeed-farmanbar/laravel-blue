@@ -33,12 +33,11 @@ class AuthenticateGreenlight
                 'headers' => $cookie
             ])->get($address);
             
-            $userData=$res->json();
+            $userData=$res->collect();
             if($res->json()==null){
                 $userData=[] ;
             }
-            logger($userData);
-            logger("count".count($userData));
+
 
 
             app()->bind('user', function ($app) use ($userData){
