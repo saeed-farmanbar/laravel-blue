@@ -106,13 +106,15 @@
 
                     <div class="dropdown">
                       <a href="#" class="nav-link pr-0" data-toggle="dropdown" aria-expanded="false">
-                        <span class="avatar">{{app("user")}}</span>
+                        <span class="avatar">
+                            {{-- {{app("user")}} --}}
+                        </span>
                         <span class="ml-2 d-none d-lg-block">
-                          <span class="text-default username">{{app("user")}}</span>
+                          <span class="text-default username">{{app("user")["name"]}}</span>
                         </span>
                       </a>
                       <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(151px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
-                        <a class="dropdown-item" href="/b/u/gl-ptgfkkkquros/edit">
+                        <a class="dropdown-item" href='{{"/b/u/".app("user")["uid"]."/edit"}}'>
                           <i class="dropdown-icon fas fa-id-card mr-3"></i>Profile
           </a>              <div class="dropdown-divider"></div>
                         <form class="button_to" method="post" action="/b/u/logout"><button class="dropdown-item" type="submit">
