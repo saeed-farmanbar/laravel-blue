@@ -117,7 +117,7 @@
                         <a class="dropdown-item" href='{{"/b/u/".app("user")["uid"]."/edit"}}'>
                           <i class="dropdown-icon fas fa-id-card mr-3"></i>Profile
           </a>              <div class="dropdown-divider"></div>
-                        <form class="button_to" method="post" action="/b/u/logout"><button class="dropdown-item" type="submit">
+                        <form class="button_to" method="post" action="/u/logout"><button class="dropdown-item" type="submit">
                           <i class="dropdown-icon fas fa-sign-out-alt"></i> Sign out
           </button><input type="hidden" name="authenticity_token" value="UagC412tAE4CJtyynfq83YiTNzdlKBZJCeC5h/XJJdiwQ7jZWeiyvUaNlnNcNR0Q3v/qRmiO9EXWYw7JB1cugg=="></form>            </div>
                     </div>

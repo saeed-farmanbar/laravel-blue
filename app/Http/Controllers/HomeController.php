@@ -17,5 +17,14 @@ class HomeController extends Controller
     }
 
 
+    public function logout()
+    {
+        \Cookie::forget('_greenlight-2_3_session');
+        return back();
+    }
+
+        
+
+
 
 }
