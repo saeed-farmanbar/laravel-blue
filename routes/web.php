@@ -14,7 +14,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 Route::get('/', [HomeController::class, 'show']);
-Route::get('/b/logout', [HomeController::class, 'logout']);
+Route::get('/u/logout', [HomeController::class, 'logout']);
 
 // Route::get('/', function () {
 //     return view('info');
