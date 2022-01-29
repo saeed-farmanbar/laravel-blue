@@ -36,6 +36,22 @@ class HomeController extends Controller
 
         
 
+    public function setLang($lang)
+    {
+        if(!in_array($lang,["en","de_DE","fa_IR"]))
+        return back();
+        if(!app("authenticated")){
+            return back();
+        }
+
+        $user=\DB::table('users')->where("uid"app("user")["uid"])->firstOrFail();
+        $user->language=$lang;
+        $user->save();
+        return back();
+
+
+    }
+
 
 
 }

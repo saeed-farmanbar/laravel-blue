@@ -15,6 +15,7 @@ use App\Http\Controllers\HomeController;
 */
 Route::get('/', [HomeController::class, 'show']);
 Route::get('/u/logout', [HomeController::class, 'logout']);
+Route::get('/lang/{lang}', [HomeController::class, 'setLang']);
 
 // Route::get('/', function () {
 //     return view('info');
