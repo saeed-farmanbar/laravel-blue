@@ -221,14 +221,16 @@
 Contact us: contact@mohit.art
 <br>
 <a href="http://mohit.art">mohit.art</a>
+<br>
+@if (app("authenticated") )
 
 <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"></a>
 <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"></a>
 <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"></a>
+@endif
+
         </p>
-        @if (app("authenticated") )
-ss
-        @endif
+
 
 
 
