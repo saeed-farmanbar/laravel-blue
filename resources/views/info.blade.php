@@ -224,9 +224,9 @@ Contact us: contact@mohit.art
 <br>
 @if (app("authenticated") )
 
-<a href="/lang/en" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png"></a>
-<a href="/lang/de_DE" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png"></a>
-<a href="/lang/fa_IR" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"></a>
+<a href="/lang/en" Referer=""><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png"></a>
+<a href="/lang/de_DE" Referer=""><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png"></a>
+<a href="/lang/fa_IR" Referer=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"></a>
 @endif
 
         </p>
