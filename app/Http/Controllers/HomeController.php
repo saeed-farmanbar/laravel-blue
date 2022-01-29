@@ -20,6 +20,7 @@ class HomeController extends Controller
     public function logout()
     {
         unset($_COOKIE['_greenlight-2_3_session']);
+        setcookie("_greenlight-2_3_session", "", -1);
         return back();
     }
 
