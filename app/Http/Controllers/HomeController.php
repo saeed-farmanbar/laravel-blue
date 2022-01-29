@@ -44,7 +44,7 @@ class HomeController extends Controller
             return back();
         }
 
-        $user=\DB::table('users')->where("uid"app("user")["uid"])->firstOrFail();
+        $user=\DB::table('users')->where("uid",app("user")["uid"])->firstOrFail();
         $user->language=$lang;
         $user->save();
         return back();
