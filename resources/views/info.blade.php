@@ -85,12 +85,61 @@
                 <a class="header-brand" href="https://meet.mohit.art/b/">
                     <img class="header-brand-img" alt="" src="mohit_files/mohit_logo_rz.png">
                 </a>
+                @if (!app("authenticated") )
+
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://meet.mohit.art/b/signin">Panel</a>
                         <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://mohit.art">mohit.art</a>
                 </div>
+                @else    
+
+                <div class="d-flex ml-auto">
+
+                    <a class="px-3 mx-1 mt-1 header-nav active" href="/b/rooms">
+                      <i class="fas fa-home pr-1 "></i><span class="d-none d-sm-inline-block">Home</span>
+          </a>
+          
+
+
+
+                    <div class="dropdown">
+                      <a href="#" class="nav-link pr-0" data-toggle="dropdown" aria-expanded="false">
+                        <span class="avatar">{{app("user")}}</span>
+                        <span class="ml-2 d-none d-lg-block">
+                          <span class="text-default username">{{app("user")}}</span>
+                        </span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(151px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+                        <a class="dropdown-item" href="/b/u/gl-ptgfkkkquros/edit">
+                          <i class="dropdown-icon fas fa-id-card mr-3"></i>Profile
+          </a>              <div class="dropdown-divider"></div>
+                        <form class="button_to" method="post" action="/b/u/logout"><button class="dropdown-item" type="submit">
+                          <i class="dropdown-icon fas fa-sign-out-alt"></i> Sign out
+          </button><input type="hidden" name="authenticity_token" value="UagC412tAE4CJtyynfq83YiTNzdlKBZJCeC5h/XJJdiwQ7jZWeiyvUaNlnNcNR0Q3v/qRmiO9EXWYw7JB1cugg=="></form>            </div>
+                    </div>
+                    <a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a>
+          
+          
+          
+          
+          
+                </div>
+                @endif
+
+
+
+
+
+
+
+
+
+
+
+
+                
             </div>
         </div>
     </div>
