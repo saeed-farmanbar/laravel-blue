@@ -48,6 +48,12 @@ class HomeController extends Controller
         $user=\App\Models\User::where("uid",app("user")["uid"])->firstOrFail();
         $user->language=$lang;
         $user->save();
+
+        // $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first();
+
+
+
+        // return  redirect()->away('https://meet.mohit.art/b/'.$room->id);
         return back();
 
 

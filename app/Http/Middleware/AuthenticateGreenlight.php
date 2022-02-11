@@ -37,7 +37,7 @@ class AuthenticateGreenlight
             if($res->json()==null){
                 $userData=[] ;
             }
-
+            // $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first()
 
 
             app()->bind('user', function ($app) use ($userData){
