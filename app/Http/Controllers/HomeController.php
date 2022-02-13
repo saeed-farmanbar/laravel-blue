@@ -67,7 +67,7 @@ class HomeController extends Controller
 
         $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first();
 
-
+logger("to user room");
 
         return  redirect()->away('https://meet.mohit.art/b/'.$room->id);
         // return back();
