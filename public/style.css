@@ -15,12 +15,21 @@ div[class*="actionsbar"] button span{
     border-color: white!important;
 
 }
+
+div[class*="actionsbar"] button:focus ,div[class*="actionsbar"] button span:focus{
+    box-shadow: none important;
+}
+
+
+
+
+
 div[class*="chat"]  button[class*="sendButton"] span{
     background-color: black!important;
     border-color: white!important;
 
 }
 div[class*="chat"]  button[class*="sendButton"]:focus ,div[class*="chat"]  button[class*="sendButton"] span:focus{
-    box-shadow: noneimportant;
+    box-shadow: none important;
 
 }
