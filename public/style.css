@@ -20,7 +20,7 @@ div[class*="chat"]  button[class*="sendButton"] span{
     border-color: white!important;
 
 }
-div[class*="chat"]  button[class*="sendButton"]:focus {
-    box-shadow: none;
+div[class*="chat"]  button[class*="sendButton"]:focus ,div[class*="chat"]  button[class*="sendButton"] span:focus{
+    box-shadow: noneimportant;
 
 }
