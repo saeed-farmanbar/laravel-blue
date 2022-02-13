@@ -159,8 +159,11 @@
                     <div class="col-md-12 col-sm-12 text-center">
 
 
-                        <a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a>
-<a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a><a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a>
+                        <a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/en') }}" style="margin-bottom: 10px">english</a>
+
+<a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/de_DE') }}" style="margin-bottom: 10px">Deutsch</a>
+
+<a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/fa_IR') }}" style="margin-bottom: 10px">فارسی</a>
 
                         <h1 id="main-text" class="display-4 mb-4"> Welcome to mohit.art</h1>
                         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
