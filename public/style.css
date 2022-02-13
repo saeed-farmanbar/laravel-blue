@@ -17,7 +17,7 @@ div[class*="actionsbar"] button span{
 }
 
 div[class*="actionsbar"] button:focus ,div[class*="actionsbar"] button span:focus{
-    box-shadow: none important;
+    box-shadow: none !important;
 }
 
 
@@ -30,6 +30,6 @@ div[class*="chat"]  button[class*="sendButton"] span{
 
 }
 div[class*="chat"]  button[class*="sendButton"]:focus ,div[class*="chat"]  button[class*="sendButton"] span:focus{
-    box-shadow: none important;
+    box-shadow: none !important;
 
 }
