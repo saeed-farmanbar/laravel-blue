@@ -158,15 +158,9 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
 
-                        <span class="cookies-warning-button d-inline-block">
-                            <button id="cookies-agree-button" class="btn customBtn primary-regular">I Agree</button>
-                          </span><span class="cookies-warning-button d-inline-block">
-                            <button id="cookies-agree-button" class="btn customBtn primary-regular">I Agree</button>
-                          </span><span class="cookies-warning-button d-inline-block">
-                            <button id="cookies-agree-button" class="btn customBtn primary-regular">I Agree</button>
-                          </span>
 
-
+                        <a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a>
+<a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a><a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a>
 
                         <h1 id="main-text" class="display-4 mb-4"> Welcome to mohit.art</h1>
                         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
