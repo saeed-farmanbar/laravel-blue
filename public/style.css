@@ -15,8 +15,12 @@ div[class*="actionsbar"] button span{
     border-color: white!important;
 
 }
-div[class*="chat"] button span{
+div[class*="chat"]  button[class*="sendButton"] span{
     background-color: black!important;
     border-color: white!important;
+
+}
+div[class*="chat"]  button[class*="sendButton"]:focus {
+    box-shadow: none;
 
 }
