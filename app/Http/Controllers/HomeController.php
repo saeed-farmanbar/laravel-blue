@@ -40,6 +40,20 @@ class HomeController extends Controller
     {
         if(!in_array($lang,["en","de_DE","fa_IR"]))
         return back();
+
+
+
+        if($lang=="en")
+        \App::setLocale("en");
+
+        if($lang=="fa_IR")
+        \App::setLocale("fa");
+
+        if($lang=="de_DE")
+        \App::setLocale("de");
+
+
+
         if(!app("authenticated")){
             return back();
         }
@@ -49,12 +63,12 @@ class HomeController extends Controller
         $user->language=$lang;
         $user->save();
 
-        // $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first();
+        $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first();
 
 
 
-        // return  redirect()->away('https://meet.mohit.art/b/'.$room->id);
-        return back();
+        return  redirect()->away('https://meet.mohit.art/b/'.$room->id);
+        // return back();
 
 
     }
