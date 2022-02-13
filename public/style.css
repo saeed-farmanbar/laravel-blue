@@ -10,7 +10,12 @@
 body{
     background-color: black!important;
 }
-button span{
+div[class*="actionsbar"] button span{
+    background-color: black!important;
+    border-color: white!important;
+
+}
+div[class*="chat"] button span{
     background-color: black!important;
     border-color: white!important;
 
