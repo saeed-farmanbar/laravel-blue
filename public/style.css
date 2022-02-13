@@ -1,3 +1,17 @@
+:root {
+    --loader-bg: black;
+  }
+  
+  .overlay--1aTlbi {
+    background-color: black !important;
+  }
+  
+
 body{
     background-color: black!important;
+}
+button span{
+    background-color: black!important;
+    border-color: black!important;
+
 }
