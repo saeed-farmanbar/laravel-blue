@@ -55,7 +55,9 @@ class HomeController extends Controller
 
 
         if(!app("authenticated")){
-            return back();
+            // return back();
+            return  redirect()->away('https://meet.mohit.art');
+
         }
 
         // $user=\DB::table('users')->where("uid",app("user")["uid"])->update(["language",$lang]);
