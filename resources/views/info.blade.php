@@ -2,12 +2,12 @@
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <title>mohit.art</title>
+    <title>edu.marlics.ir</title>
     <meta property="og:title" content="BigBlueButton">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en">
     <meta property="og:description" content="Greenlight is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link.">
-    <meta property="og:url" content="https://meet.mohit.art">
+    <meta property="og:url" content="">
     <meta property="og:image" content="https://raw.githubusercontent.com/saeed-farmanbar/greenlight/customize/app/assets/images/mohit_logo_rz.png">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="csrf-param" content="authenticity_token">
@@ -91,7 +91,7 @@
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://meet.mohit.art/b/signin">Panel</a>
                         <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://mohit.art">mohit.art</a>
+                        href="https://edu.marlics.ir">edu.marlics.ir</a>
                 </div>
                 @else    
 
@@ -121,7 +121,7 @@
                           <i class="dropdown-icon fas fa-sign-out-alt"></i> Sign out
           </button><input type="hidden" name="authenticity_token" value="UagC412tAE4CJtyynfq83YiTNzdlKBZJCeC5h/XJJdiwQ7jZWeiyvUaNlnNcNR0Q3v/qRmiO9EXWYw7JB1cugg=="></form>            </div>
                     </div>
-                    <a class="btn btn-outline-primary mx-2 sign-in-button" href="https://mohit.art" style="margin-bottom: 10px">mohit.art</a>
+                    <a class="btn btn-outline-primary mx-2 sign-in-button" href="https://edu.marlics.ir" style="margin-bottom: 10px">edu.marlics.ir</a>
           
           
           
@@ -166,7 +166,7 @@
 
 <a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/fa_IR') }}" style="margin-bottom: 10px">فارسی</a>
 @endif
-                        <h1 id="main-text" class="display-4 mb-4"> Welcome to mohit.art</h1>
+                        <h1 id="main-text" class="display-4 mb-4"> Welcome to edu.marlics.ir</h1>
                         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
                         </p>
                         
@@ -227,16 +227,11 @@
         <p class="text-center mb-1" style="color:#000 ">
 
 
-Contact us: contact@mohit.art
+Contact us: contact@edu.marlics.ir
 <br>
 <a href="http://mohit.art">mohit.art</a>
 <br>
-@if (app("authenticated") )
 
-<a href="{{ url('/lang/en') }}"  ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png"></a>
-<a href="{{ url('/lang/de_DE') }}"  ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png"></a>
-<a href="{{ url('/lang/fa_IR') }}"  ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"></a>
-@endif
 
         </p>
 
