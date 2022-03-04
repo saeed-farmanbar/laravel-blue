@@ -46,7 +46,7 @@
     <link rel="stylesheet" media="all" href="mohit_files/application-1e619b651171a0e600076024ca227a8c05ab0e821081bc17.css" data-turbolinks-track="reload">
     <script src="mohit_files/application-d098e8ba3a7631a6718c379214c8e470713d688e70e74fcd4.js" data-turbolinks-track="reload"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://meet.mohit.art/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://https://live.marlics.ir/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
 
     <!-- Primary color styling -->
     <link rel="stylesheet" media="screen" href="mohit_files/primary.css">
@@ -82,14 +82,14 @@
     <div class="header py-4">
         <div class="container">
             <div class="d-flex">
-                <a class="header-brand" href="https://meet.mohit.art/b/">
+                <a class="header-brand" href="https://https://live.marlics.ir/b/">
                     <img class="header-brand-img" alt="" src="mohit_files/mohit_logo_rz.png">
                 </a>
                 @if (!app("authenticated") )
 
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://meet.mohit.art/b/signin">Panel</a>
+                        href="https://https://live.marlics.ir/b/signin">Panel</a>
                         <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://edu.marlics.ir">edu.marlics.ir</a>
                 </div>
@@ -172,10 +172,10 @@
                         
                         @if (!app("authenticated") )
 
-                            <a id="" class="btn btn-outline-primary  "  href="{{ url('https://meet.mohit.art/b/signin') }}" >
+                            <a id="" class="btn btn-outline-primary  "  href="{{ url('https://https://live.marlics.ir/b/signin') }}" >
                                 Sign In
                             </a>
-                            <a id="" class="btn btn-outline-primary  " href="{{ url('https://meet.mohit.art/b/signup') }}">
+                            <a id="" class="btn btn-outline-primary  " href="{{ url('https://https://live.marlics.ir/b/signup') }}">
                                 Sign Up
                             </a>
 
@@ -229,7 +229,7 @@
 
 Contact us: contact@edu.marlics.ir
 <br>
-<a href="http://mohit.art">mohit.art</a>
+<a href="http://https://marlics.ir">https://marlics.ir</a>
 <br>
 
 
