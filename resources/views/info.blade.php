@@ -8,7 +8,7 @@
     <meta property="og:locale" content="en">
     <meta property="og:description" content="Greenlight is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link.">
     <meta property="og:url" content="">
-    <meta property="og:image" content="https://raw.githubusercontent.com/saeed-farmanbar/greenlight/customize/app/assets/images/mohit_logo_rz.png">
+    <meta property="og:image" content="">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="csrf-param" content="authenticity_token">
 <meta name="csrf-token" content="aVkpY35+Ulhopz2Eq6EeR7VzSCC36727X8n4jPKVDVdNWLTfEQOzrJSUK2sjxXm3MwlnMLBxO1aTVtaBQu+OBw==">
