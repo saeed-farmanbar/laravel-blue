@@ -173,10 +173,10 @@
                         @if (!app("authenticated") )
 
                             <a id="" class="btn btn-outline-primary  "  href="{{ url('https://https://live.marlics.ir/b/signin') }}" >
-                                Sign In
+                                ورود
                             </a>
                             <a id="" class="btn btn-outline-primary  " href="{{ url('https://https://live.marlics.ir/b/signup') }}">
-                                Sign Up
+                                ثبت نام
                             </a>
 
                             <div><img src="https://ics.marlik.org/wp-content/uploads/revslider/Home-singlePic/IMG_0056-1-scaled.jpg" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
@@ -200,7 +200,7 @@
 
         <div class="container mt-8 mb-6 text-center">
 
-            <h2 class="mb-6">List of Current Meeting
+            <h2 class="mb-6">فهرست همایش ها
             </h2>
 
 
