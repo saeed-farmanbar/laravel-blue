@@ -166,8 +166,8 @@
 
 <a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/fa_IR') }}" style="margin-bottom: 10px">فارسی</a>
 @endif
-                        <h1 id="main-text" class="display-4 mb-4"> Welcome to edu.marlics.ir</h1>
-                        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "> Sign up to be the first one for getting updates of our events and be able to join them
+                        <h1 id="main-text" class="display-4 mb-4"> به سامانه رویدا‌دهای پژوهشسرای دانش آموزی مارلیک خوش آمدید</h1>
+                        <p class="lead offset-lg-2 col-lg-8 col-sm-12 ">  برای مشاهده رویداد‌ها ثبت نام نمایید
                         </p>
                         
                         @if (!app("authenticated") )
@@ -200,7 +200,7 @@
 
         <div class="container mt-8 mb-6 text-center">
 
-            <h2 class="mb-6">فهرست همایش ها
+            <h2 class="mb-6">فهرست رویدا‌دها
             </h2>
 
 
