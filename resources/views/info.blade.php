@@ -46,7 +46,7 @@
     <link rel="stylesheet" media="all" href="mohit_files/application-1e619b651171a0e600076024ca227a8c05ab0e821081bc17.css" data-turbolinks-track="reload">
     <script src="mohit_files/application-d098e8ba3a7631a6718c379214c8e470713d688e70e74fcd4.js" data-turbolinks-track="reload"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://https://live.marlics.ir/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://live.marlics.ir/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
 
     <!-- Primary color styling -->
     <link rel="stylesheet" media="screen" href="mohit_files/primary.css">
