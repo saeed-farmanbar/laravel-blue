@@ -229,7 +229,7 @@
 
 Contact us: contact@edu.marlics.ir
 <br>
-<a href="http://https://marlics.ir">https://marlics.ir</a>
+<a href="http://https://marlics.ir">https://edu.marlics.ir</a>
 <br>
 
 
