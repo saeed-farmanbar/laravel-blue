@@ -46,7 +46,7 @@
     <link rel="stylesheet" media="all" href="mohit_files/application-1e619b651171a0e600076024ca227a8c05ab0e821081bc17.css" data-turbolinks-track="reload">
     <script src="mohit_files/application-d098e8ba3a7631a6718c379214c8e470713d688e70e74fcd4.js" data-turbolinks-track="reload"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://live.marlics.ir/b/assets/mohit_logo_rz-b85a410e8f0869b3dabc3d7c306e9d6901ef0102d8a2203c4206065f53fd0338.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://edu.marlics.ir/files/iM0ffCW8oPZSG2VifWWLIDIDzMyeYA9b2ilF86O2.png">
 
     <!-- Primary color styling -->
     <link rel="stylesheet" media="screen" href="mohit_files/primary.css">
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="d-flex">
                 <a class="header-brand" href="https://https://live.marlics.ir/b/">
-                    <img class="header-brand-img" alt="" src="mohit_files/mohit_logo_rz.png">
+                    <img class="header-brand-img" alt="" src="https://edu.marlics.ir/files/iM0ffCW8oPZSG2VifWWLIDIDzMyeYA9b2ilF86O2.png">
                 </a>
                 @if (!app("authenticated") )
 
@@ -179,7 +179,7 @@
                                 Sign Up
                             </a>
 
-                            <div><img src="mohit_files/mohit_logo_rz.png" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
+                            <div><img src="https://ics.marlik.org/wp-content/uploads/revslider/Home-singlePic/IMG_0056-1-scaled.jpg" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
         
                         @endif
                         {{-- <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
