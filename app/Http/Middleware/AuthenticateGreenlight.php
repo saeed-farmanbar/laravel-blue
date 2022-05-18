@@ -21,7 +21,7 @@ class AuthenticateGreenlight
     {
 
         // AuthenticateGreenlight
-        $address = "http://127.0.0.1:5003/b/user-info-api";
+        $address = "http://marlik-liv-gl.com:5003/b/user-info-api";
 
         if (isset($_COOKIE['_greenlight-2_3_session'])) {
 
