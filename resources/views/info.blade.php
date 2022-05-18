@@ -172,10 +172,10 @@
                         
                         @if (!app("authenticated") )
 
-                            <a id="" class="btn btn-outline-primary  "  href="{{ url('https://https://live.marlics.ir/b/signin') }}" >
+                            <a id="" class="btn btn-outline-primary  "  href="{{ url('https://live.marlics.ir/b/signin') }}" >
                                 ورود
                             </a>
-                            <a id="" class="btn btn-outline-primary  " href="{{ url('https://https://live.marlics.ir/b/signup') }}">
+                            <a id="" class="btn btn-outline-primary  " href="{{ url('https://live.marlics.ir/b/signup') }}">
                                 ثبت نام
                             </a>
 
@@ -229,7 +229,7 @@
 
 Contact us: contact@edu.marlics.ir
 <br>
-<a href="http://https://marlics.ir">https://edu.marlics.ir</a>
+<a href="https://marlics.ir">https://edu.marlics.ir</a>
 <br>
 
 
