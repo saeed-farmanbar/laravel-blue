@@ -7,6 +7,7 @@ use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Cookie;
+use Exception;
 
 class AuthenticateGreenlight
 {
@@ -53,7 +54,7 @@ class AuthenticateGreenlight
 
                 return $next($request);
             }
-        } catch (Throwable $e) {
+        } catch (Exception $e) {
         }
 
         app()->bind('authenticated', function ($app) {
