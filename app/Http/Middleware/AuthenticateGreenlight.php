@@ -21,39 +21,40 @@ class AuthenticateGreenlight
     {
 
         // AuthenticateGreenlight
-        $address = "http://marlik-liv-gl.com:5003/b/user-info-api";
+        try {
+            $address = "https://meet.mohit.art/b/user-info-api";
 
-        if (isset($_COOKIE['_greenlight-2_3_session'])) {
+            if (isset($_COOKIE['_greenlight-2_3_session'])) {
 
-            $cookie = ['Cookie' => "_greenlight-2_3_session=" . urlencode($_COOKIE['_greenlight-2_3_session'])];
-
-
+                $cookie = ['Cookie' => "_greenlight-2_3_session=" . urlencode($_COOKIE['_greenlight-2_3_session'])];
 
 
-            $res = Http::withOptions([
-                'headers' => $cookie
-            ])->get($address);
 
-            $userData = $res->collect();
-            if ($res->json() == null) {
-                $userData = [];
+
+                $res = Http::withOptions([
+                    'headers' => $cookie
+                ])->get($address);
+
+                $userData = $res->collect();
+                if ($res->json() == null) {
+                    $userData = [];
+                }
+                // $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first()
+
+
+                app()->bind('user', function ($app) use ($userData) {
+                    return $userData;
+                });
+
+                app()->bind('authenticated', function ($app) use ($userData) {
+                    return count($userData) > 0 ? true : false;
+                });
+                // logger(app('authenticated'));
+
+                return $next($request);
             }
-            // $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first()
-
-
-            app()->bind('user', function ($app) use ($userData) {
-                return $userData;
-            });
-
-            app()->bind('authenticated', function ($app) use ($userData) {
-                return count($userData) > 0 ? true : false;
-            });
-            // logger(app('authenticated'));
-
-            return $next($request);
+        } catch (Throwable $e) {
         }
-
-
 
         app()->bind('authenticated', function ($app) {
             return false;
