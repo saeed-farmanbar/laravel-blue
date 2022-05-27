@@ -179,7 +179,7 @@
                                 ثبت نام
                             </a>
 
-                            <div style="margin-top: 10px"><img src="https://ics.marlik.org/wp-content/uploads/revslider/Home-singlePic/IMG_0056-1-scaled.jpg" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
+                            <div style="margin-top: 10px"><img src="https://edu.marlics.ir/files/GZEU1Q1ZvQqSdwabPAtDvFfQf2AaJSFRRsrEiiuJ.jpeg" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
         
                         @endif
                         {{-- <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
