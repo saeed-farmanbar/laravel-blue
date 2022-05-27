@@ -82,14 +82,14 @@
     <div class="header py-4">
         <div class="container">
             <div class="d-flex">
-                <a class="header-brand" href="https://https://live.marlics.ir/b/">
+                <a class="header-brand" href="https://live.marlics.ir/b/">
                     <img class="header-brand-img" alt="" src="https://edu.marlics.ir/files/iM0ffCW8oPZSG2VifWWLIDIDzMyeYA9b2ilF86O2.png">
                 </a>
                 @if (!app("authenticated") )
 
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://https://live.marlics.ir/b/signin">Panel</a>
+                        href="https://live.marlics.ir/b/signin">Panel</a>
                         <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://edu.marlics.ir">edu.marlics.ir</a>
                 </div>
