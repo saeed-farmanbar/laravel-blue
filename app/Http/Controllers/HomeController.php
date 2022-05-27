@@ -10,7 +10,7 @@ class HomeController extends Controller
 
     public function show()
     {
-        $availableRooms= \DB::table('rooms')->where('deleted','false')->get();
+        $availableRooms = \DB::table('rooms')->where('deleted', 'false')->get();
         return view('info', [
             'rooms' => $availableRooms
         ]);
@@ -21,64 +21,60 @@ class HomeController extends Controller
     {
         if (isset($_SERVER['HTTP_COOKIE'])) {
             $cookies = explode(';', $_SERVER['HTTP_COOKIE']);
-            foreach($cookies as $cookie) {
+            foreach ($cookies as $cookie) {
                 $parts = explode('=', $cookie);
                 $name = trim($parts[0]);
-                setcookie($name, '', time()-1000);
-                setcookie($name, '', time()-1000, '/');
+                setcookie($name, '', time() - 1000);
+                setcookie($name, '', time() - 1000, '/');
             }
         }
-        
+
 
 
         return back();
     }
 
-        
+
 
     public function setLang($lang)
     {
-        if(!in_array($lang,["en","de_DE","fa_IR"]))
-        return back();
+        if (!in_array($lang, ["en", "de_DE", "fa_IR"]))
+            return back();
 
 
 
-        if($lang=="en")
-        \App::setLocale("en");
+        if ($lang == "en")
+            \App::setLocale("en");
 
-        if($lang=="fa_IR")
-        \App::setLocale("fa");
+        if ($lang == "fa_IR")
+            \App::setLocale("fa");
 
-        if($lang=="de_DE")
-        \App::setLocale("de");
+        if ($lang == "de_DE")
+            \App::setLocale("de");
 
 
 
-        if(!app("authenticated")){
+        if (!app("authenticated")) {
             // return back();
-            return  redirect()->away('https://meet.mohit.art');
-
+            return  redirect()->away('https://live.marlics.ir');
         }
 
         // $user=\DB::table('users')->where("uid",app("user")["uid"])->update(["language",$lang]);
-        $user=\App\Models\User::where("uid",app("user")["uid"])->firstOrFail();
-        $user->language=$lang;
+        $user = \App\Models\User::where("uid", app("user")["uid"])->firstOrFail();
+        $user->language = $lang;
         $user->save();
 
-        $room=\DB::table('rooms')->where("id",app("user")["room_id"])->first();
+        $room = \DB::table('rooms')->where("id", app("user")["room_id"])->first();
 
         // logger("to user room");
         // logger($room->id);
         // return $room;
 
         // return  redirect()->away('https://meet.mohit.art/b/'.$room->uid);
-        return  redirect()->away('https://meet.mohit.art/b/rooms');
-        
+        return  redirect()->away('https://live.marlics.ir/b/rooms');
+
         // return back();
 
 
     }
-
-
-
 }
