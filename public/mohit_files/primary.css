@@ -49,11 +49,11 @@ a {
     box-shadow: 0 0 0 2px #FFFFFF !important; }
 
 .header .avatar {
-  background-color: #000 !important;
+  background-color: #f89d36 !important;
   color: white !important; }
 
 .header a:hover:not(.btn) {
-  color: #000 !important; }
+  color: #f89d36 !important; }
 
 .header .header-nav {
   border-color: #000 !important; }
