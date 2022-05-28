@@ -10,7 +10,7 @@ class HomeController extends Controller
 
     public function show()
     {
-        $availableRooms = \DB::table('rooms')->where('deleted', 'false')->get();
+        $availableRooms = \DB::table('rooms')->where('deleted', '0')->get();
         return view('info', [
             'rooms' => $availableRooms
         ]);
