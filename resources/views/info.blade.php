@@ -98,7 +98,7 @@
                 <div class="d-flex ml-auto">
 
                     <a class="px-3 mx-1 mt-1 header-nav active" href="/b/rooms">
-                      <i class="fas fa-home pr-1 "></i><span class="d-none d-sm-inline-block">Home</span>
+                      <i class="fas fa-home pr-1 "></i><span class="d-none d-sm-inline-block">خانه</span>
           </a>
           
 
@@ -160,11 +160,11 @@
 
                         @if (app("authenticated") )
 
-                        <a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/en') }}" style="margin-bottom: 10px">english</a>
+                        {{-- <a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/en') }}" style="margin-bottom: 10px">english</a>
 
 <a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/de_DE') }}" style="margin-bottom: 10px">Deutsch</a>
 
-<a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/fa_IR') }}" style="margin-bottom: 10px">فارسی</a>
+<a class="btn btn-outline-primary mx-2 sign-in-button" href="{{ url('/lang/fa_IR') }}" style="margin-bottom: 10px">فارسی</a> --}}
 @endif
                         <h1 id="main-text" class="display-4 mb-4"> به سامانه رویدا‌دهای پژوهشسرای دانش آموزی مارلیک خوش آمدید</h1>
                         <p class="lead offset-lg-2 col-lg-8 col-sm-12 ">  برای مشاهده رویداد‌ها ثبت نام نمایید
@@ -179,9 +179,16 @@
                                 ثبت نام
                             </a>
 
-                            <div style="margin-top: 10px"><img src="https://edu.marlics.ir/files/GZEU1Q1ZvQqSdwabPAtDvFfQf2AaJSFRRsrEiiuJ.jpeg" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
+
         
                         @endif
+
+
+                        <div style="margin-top: 10px"><img src="https://edu.marlics.ir/files/GZEU1Q1ZvQqSdwabPAtDvFfQf2AaJSFRRsrEiiuJ.jpeg" style="max-height:250px" class="img-fluid" alt="Responsive image"></div>
+
+
+
+
                         {{-- <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener"
                                 href="https://bigbluebutton.org/2018/07/09/greenlight-2-0/">Greenlight</a>
                             is a simple front-end for your BigBlueButton open-source web

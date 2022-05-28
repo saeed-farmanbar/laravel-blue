@@ -70,7 +70,6 @@ class HomeController extends Controller
         // logger($room->id);
         // return $room;
 
-        // return  redirect()->away('https://meet.mohit.art/b/'.$room->uid);
         return  redirect()->away('https://live.marlics.ir/b/rooms');
 
         // return back();
