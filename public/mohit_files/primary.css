@@ -56,13 +56,13 @@ a {
   color: #f89d36 !important; }
 
 .header .header-nav {
-  border-color: #000 !important; }
+  border-color: #f89d36 !important; }
 
 .header .header-nav.active {
-  color: #000 !important; }
+  color: #f89d36 !important; }
 
 .nav-tabs .nav-link.active {
-  border-color: #000 !important; }
+  border-color: #f89d36 !important; }
 
 .nav-tabs .nav-link:not(.active) {
   color: #9aa0ac !important; }
