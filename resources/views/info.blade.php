@@ -89,7 +89,7 @@
 
                 <div class="d-flex ml-auto">
                     <a class="btn btn-outline-primary mx-2 sign-in-button"
-                        href="https://live.marlics.ir/b/signin">Panel</a>
+                        href="https://live.marlics.ir/b/signin">پنل کاربری</a>
                         <a class="btn btn-outline-primary mx-2 sign-in-button"
                         href="https://edu.marlics.ir">edu.marlics.ir</a>
                 </div>
